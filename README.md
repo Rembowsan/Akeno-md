@@ -1,6 +1,6 @@
 <h1 align="center">ꪶAkeno Bot V1ꫂ<br></h1>
 <p align="center">
-<img src="https://c.tenor.com/Q3hXgsRIcswAAAAM/akeno-himejima.gif" alt="animated" width="540" height="280" />
+<img src="https://c.tenor.com/bLokIRXNtW0AAAPo/akeno.mp4" alt="animated" width="540" height="280" />
 </p>
 
 <p align="center">
