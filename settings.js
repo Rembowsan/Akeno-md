@@ -54,7 +54,7 @@ global.owner = ['917605902011']
 global.ownertag = '917605902011'
 global.botname = 'Akeno Bot MD V1' //ur bot name
 global.linkz = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" //your theme url which will be displayed on whatsapp
-global.websitex = "https://www.instagram.com/lungs__hacker/" //ur website to be displayed
+global.websitex = "https://www.instagram.com/asli_guru69/" //ur website to be displayed
 global.botscript = 'https://wa.me/+917605902011?text=HII' //script link
 global.reactmoji = "😘" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
