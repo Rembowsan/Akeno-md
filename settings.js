@@ -43,23 +43,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['917605902011'] //ur owner number
-global.ownername = "🦄GURU" //ur owner name
-global.ytname = "YT: KAKASHI" //ur yt chanel name
-global.socialm = "GitHub: GURU" //ur github or insta name
-global.location = "India, Odisha, Cuttack" //ur location
+global.vcardowner = ['447935699967'] //ur owner number
+global.ownername = "🦄ZUKA70" //ur owner name
+global.ytname = "YT: ZUKATOMODZZ" //ur yt chanel name
+global.socialm = "Insta: tsb.umbrella" //ur github or insta name
+global.location = "Germany, Oldenburg" //ur location
 
 //bot bomdy 
-global.owner = ['917605902011']
-global.ownertag = '917605902011'
-global.botname = 'Akeno Bot MD V1' //ur bot name
-global.linkz = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" //your theme url which will be displayed on whatsapp
-global.websitex = "https://www.instagram.com/asli_guru69/" //ur website to be displayed
-global.botscript = 'https://wa.me/+917605902011?text=HII' //script link
-global.reactmoji = "😘" //ur menu react emoji
+global.owner = ['447935699967']
+global.ownertag = '447935699967'
+global.botname = 'Umbrella Bot' //ur bot name
+global.linkz = "https://www.youtube.com/zukatomodzz" //your theme url which will be displayed on whatsapp
+global.websitex = "https://www.instagram.com/tsb.umbrella/" //ur website to be displayed
+global.botscript = '-' //script link
+global.reactmoji = "🦄" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Akeno Bot  " //ur sticker watermark packname
-global.author = "🦄GURU" //ur sticker watermark author
+global.packname = "Umbrella Bot  " //ur sticker watermark packname
+global.author = "By Zukato" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -68,7 +68,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['917605902011'] //ur premium numbers
+global.premium = ['447935699967'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -91,7 +91,7 @@ global.ntilink = []
 //omther
 global.sessionName = 'session'
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['#']
 global.sp = '⭔'
 global.mess = {
     success: 'Here is your material darling ✓',

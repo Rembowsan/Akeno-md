@@ -1081,11 +1081,14 @@ const reactionMessage = {
                 
                 const timestampe = speed();
 const latensie = speed() - timestampe
-                const menulist = `┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  How Are You darling? 😄
-│└────────────┈ ⳹
+                const menulist = `
+│ Hello「 ${pushname} 」
+│
+│Umbrella Bot ist ein Fun Bot
+│mit vielen Verschiedenen
+│Befehlen. Natürlich gibt es
+│noch paar Bugs die aber
+│behoben werden :)
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -1093,15 +1096,8 @@ const latensie = speed() - timestampe
 │𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 └┬────────────┈ ⳹
-   │✑  Darling Please Select
-   │✑  The Button Below
-   └─────────────┈ ⳹`
+`
    
    //randoming function
 function pickRandom(list) {
@@ -1198,7 +1194,7 @@ replay("Error")
 }
 break
 	
-        case 'inventori': case 'inventory': case 'profile':{
+        case 'inventasdsadadadsadori': case 'inventasdasdasdasdaory': case 'profasdasdasdadile':{
         	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (q.includes('--help')) return reply(examkosong) 
@@ -1236,7 +1232,7 @@ if (isBanChat) return reply(mess.banChat)
     reply(txt)       
   }
  break
- case 'leaderboard':
+ case 'leadasdsadadasdasdaserboard':
  if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 {      
@@ -1253,7 +1249,7 @@ if (isBanChat) return reply(mess.banChat)
     reply(txt)       
   }
  break
-case 'mining': case 'mine':{
+case 'midsadsadsadning': case 'mindsadsadadsade':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (q.includes('--help')) return reply(examkosong) 
@@ -1294,7 +1290,7 @@ if (q.includes('--help')) return reply(examkosong)
   }   
   break  
   //transaction\\
- case 'beli': case 'buy':{
+ case 'beasdasdasdasdli': case 'basdsadsadasuy':{
  	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (q.includes('--help')) return reply(examkosong) 
@@ -1338,7 +1334,7 @@ if (q.includes('--help')) return reply(examkosong)
   } else { reply("Incorrect Format!") }
  }
  break
- case 'sel': case 'jual':{
+ case 'sasdsadel': case 'juasdasdasdal':{
  	 if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
  if (!q) return  reply(`What Do You Want To Sell??\nExample : ${prefix + command} fish 2`)
@@ -1346,7 +1342,7 @@ if (isBanChat) return reply(mess.banChat)
  if (!isInventoryMonay){ addInventoriMonay(m.sender) }
  if (!isInventory){ addInventori(m.sender) }
  var anu = args[1]
- if (args[0] === 'fish'){
+ if (args[0] === 'fasdsadadsaish'){
  if (isIkan < anu) return reply(`You Don't Have Enough Fish(es) For This Transaction`)
  if (!args[1]) return reply(`Example : ${prefix + command} fish 2\n 1 Fish = 1500 Money`)
  kurangIkan(m.sender, anu)
@@ -1440,7 +1436,7 @@ if (isBanChat) return reply(mess.banChat)
  }
  break
 
- case 'heal':{
+ case 'hasdsadsadasdeal':{
  	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (q.includes('--help')) return reply(examkosong) 
@@ -1452,7 +1448,7 @@ if (q.includes('--help')) return reply(examkosong)
  reply('Success! Your Bood Is Full')
  }
  break
- case 'hunt': case 'hunting': {
+ case 'huasdsadasdasnt': case 'huntasdsadasdasding': {
  	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (q.includes('--help')) return reply(examkosong) 
@@ -8735,7 +8731,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+case 'ssdfsdfsdfdsfsc': case 'sdfsdfdsf': case 'donasdfsdfsdfdsfsdte': case 'donfsdfsfsfsdfsdate': case 'ceksdfsdfdsfsdfupdate': case 'updatesdfdsfdsfsdbot': case 'cekbsdfdsfdsfdsfot': case 'sourcecsdfsdfdsfsdfsdfode': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 teks = `*「 ${global.botname} Script 」*\n\nINSTAGRAM: ${global.websitex}\nDEV whatsapp: ${global.botscript}\n\nIf you will follow my instagram that will be enough 🍜`
@@ -8819,8 +8815,8 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
 	if (isBanChat) return reply(mess.banChat)
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Hi ${pushname}`,
-                    description: `Darling  Choose The Menu\n\n`,
+                    title: `Hello ${pushname}`,
+                    description: `Click on "Menu to see the Commands:)\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
@@ -8921,7 +8917,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"title": "Game Menu 🎮",
 										"description": "Displays The List Of Game Features",
 										"rowId": `${prefix}indomenu`
-									},
+									    },
 										{
 											"title": "Convert Menu ⚒️",
 										"description": "Displays The List Of Convert Features",
@@ -8931,16 +8927,6 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 											"title": "Database Menu ♻️",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
-										},
-										{
-										"title": "Indo Menu  🦜",
-										"description": "Displays The List Of Indo Features",
-										"rowId": `${prefix}indomenu`
-									},
-										{
-											"title": "Horoscope Menu 🕊️",
-										"description": "Displays The List Of Horoscope Features",
-										"rowId": `${prefix}indohoroscopemenu`
 										}
 								]
 							},
@@ -8975,7 +8961,7 @@ case 'allmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'All Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」	
+await XeonBotInc.send5ButImg(from, `╔═══════✪「 UMBRELLA BOT 」	
 ╠ ${prefix}self
 ╠ ${prefix}public
 ╠ ${prefix}antitag
@@ -8997,7 +8983,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠ ${prefix}block [tag/number]
 ╠ ${prefix}unblock [tag/number]
 ╠ ${prefix}coowner [add/del]
-╠═══════✪「 GROUP 」	        
+╠
+╠═✪「 GROUP 」
+╠	        
 ╠${prefix}grousetting
 ╠${prefix}grouplink
 ╠${prefix}ephemeral [option]
@@ -9033,7 +9021,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}upvote
 ╠${prefix}checkvote
 ╠${prefix}delvote
-╠═══════✪「 MAKER 」
+╠
+╠═✪「 MAKER 」
+╠
 ╠${prefix}candy
 ╠${prefix}blackpinkneon
 ╠${prefix}deepsea
@@ -9137,7 +9127,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠ ${prefix}halloween
 ╠ ${prefix}watercolor
 ╠ ${prefix}classic
-╠═════✪「 DOWNLOAD 」	
+╠
+╠═✪「 DOWNLOAD 」
+╠	
 ╠${prefix}instagram [url]
 ╠${prefix}igtv [url]
 ╠${prefix}igstory [username]
@@ -9156,7 +9148,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}gitclone [repo link]
 ╠${prefix}soundcloud [url]
 ╠${prefix}zippyshare [url]
-╠═══════✪「 SEARCH 」	
+╠
+╠═✪「 SEARCH 」	
+╠
 ╠${prefix}play [query]
 ╠${prefix}song [query]
 ╠${prefix}yts [query]
@@ -9183,7 +9177,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}wattpad [query]
 ╠ ${prefix}mcserver [ip|port]
 ╠ ${prefix}drakor [query]
-╠═══════✪「 CONVERT 」
+╠
+╠═✪「 CONVERT 」
+╠
 ╠ ${prefix}toimage [reply stick]
 ╠ ${prefix}sticker [reply img|gif]
 ╠ ${prefix}take [reply img|gif|stik]
@@ -9212,7 +9208,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}robot [reply aud]
 ╠${prefix}slow [reply aud]
 ╠${prefix}squirrel [reply aud]
-╠═══════✪「 IMG EFFECT 」
+╠
+╠═✪「 IMG EFFECT 」
+╠
 ╠${prefix}wanted
 ╠${prefix}blur
 ╠${prefix}framed
@@ -9227,7 +9225,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}beautifuleffect
 ╠${prefix}deleteeffect
 ╠${prefix}pixelate
-╠═══════✪「 RANDOM IMG 」
+╠
+╠═✪「 RANDOM IMG 」
+╠
 ╠${prefix}coffee
 ╠${prefix}bts
 ╠${prefix}woof
@@ -9240,7 +9240,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}wallcode
 ╠${prefix}animewall [query]
 ╠${prefix}animewall2 [query]
-╠═══════✪「 EMOTE 」
+╠
+╠═✪「 EMOTE 」
+╠
 ╠${prefix}instagramemoji
 ╠${prefix}facebookemoji
 ╠${prefix}iphoneemoji
@@ -9253,7 +9255,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}googleemoji
 ╠${prefix}pediaemoji
 ╠${prefix}microsoftemoji
-╠═══════✪「 ANIME 」
+╠
+╠═✪「 ANIME 」
+╠
 ╠${prefix}naruto
 ╠${prefix}yaoi
 ╠${prefix}neko2
@@ -9302,7 +9306,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}animemegumin
 ╠${prefix}smug2
 ╠${prefix}couplepp
-╠══════✪「 STICKER 」
+╠
+╠═✪「 STICKER 」
+╠
 ╠ ${prefix}patrick
 ╠ ${prefix}emoji
 ╠ ${prefix}emojimix
@@ -9310,7 +9316,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠ ${prefix}ttp
 ╠ ${prefix}doge
 ╠ ${prefix}lovesticker
-╠════✪「 ANIME STICKER 」
+╠
+╠═✪「 ANIME STICKER 」
+╠
 ╠${prefix}loli
 ╠${prefix}bully
 ╠${prefix}cuddle
@@ -9340,7 +9348,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}cringe
 ╠${prefix}neko
 ╠${prefix}gura
-╠═══════✪「 NSFW 」
+╠
+╠═✪「 NSFW 」
+╠
 ╠${prefix}hentaivideo
 ╠${prefix}yuri
 ╠${prefix}masturbation
@@ -9366,7 +9376,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠${prefix}spank
 ╠${prefix}hneko
 ╠${prefix}nwaifu
-╠═══════✪「 FUN 」
+╠
+╠═✪「 FUN 」
+╠
 ╠ ${prefix}how [text
 ╠ ${prefix}when [text]
 ╠ ${prefix}where [text]
@@ -9431,169 +9443,9 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠ ${prefix}playboy
 ╠ ${prefix}fuckgirl
 ╠ ${prefix}playgirl
-╠══════✪「 SOUND 」
-╠ ${prefix}sound1
-╠ ${prefix}sound2
-╠ ${prefix}sound3
-╠ ${prefix}sound4
-╠ ${prefix}sound5
-╠ ${prefix}sound6
-╠ ${prefix}sound7
-╠ ${prefix}sound8
-╠ ${prefix}sound9
-╠ ${prefix}sound10
-╠ ${prefix}sound11
-╠ ${prefix}sound12
-╠ ${prefix}sound13
-╠ ${prefix}sound14
-╠ ${prefix}sound15
-╠ ${prefix}sound16
-╠ ${prefix}sound17
-╠ ${prefix}sound18
-╠ ${prefix}sound19
-╠ ${prefix}sound20
-╠ ${prefix}sound21
-╠ ${prefix}sound22
-╠ ${prefix}sound23
-╠ ${prefix}sound24
-╠ ${prefix}sound25
-╠ ${prefix}sound26
-╠ ${prefix}sound27
-╠ ${prefix}sound28
-╠ ${prefix}sound29
-╠ ${prefix}sound30
-╠ ${prefix}sound31
-╠ ${prefix}sound32
-╠ ${prefix}sound33
-╠ ${prefix}sound34
-╠ ${prefix}sound35
-╠ ${prefix}sound36
-╠ ${prefix}sound37
-╠ ${prefix}sound38
-╠ ${prefix}sound39
-╠ ${prefix}sound40
-╠ ${prefix}sound41
-╠ ${prefix}sound42
-╠ ${prefix}sound43
-╠ ${prefix}sound44
-╠ ${prefix}sound45
-╠ ${prefix}sound46
-╠ ${prefix}sound47
-╠ ${prefix}sound48
-╠ ${prefix}sound49
-╠ ${prefix}sound50
-╠ ${prefix}sound51
-╠ ${prefix}sound52
-╠ ${prefix}sound53
-╠ ${prefix}sound54
-╠ ${prefix}sound55
-╠ ${prefix}sound56
-╠ ${prefix}sound57
-╠ ${prefix}sound58
-╠ ${prefix}sound59
-╠ ${prefix}sound60
-╠ ${prefix}sound61
-╠ ${prefix}sound62
-╠ ${prefix}sound63
-╠ ${prefix}sound64
-╠ ${prefix}sound65
-╠ ${prefix}sound66
-╠ ${prefix}sound67
-╠ ${prefix}sound68
-╠ ${prefix}sound69
-╠ ${prefix}sound70
-╠ ${prefix}sound71
-╠ ${prefix}sound72
-╠ ${prefix}sound73
-╠ ${prefix}sound74
-╠ ${prefix}sound75
-╠ ${prefix}sound76
-╠ ${prefix}sound77
-╠ ${prefix}sound78
-╠ ${prefix}sound79
-╠ ${prefix}sound80
-╠ ${prefix}sound81
-╠ ${prefix}sound82
-╠ ${prefix}sound83
-╠ ${prefix}sound84
-╠ ${prefix}sound85
-╠ ${prefix}sound86
-╠ ${prefix}sound87
-╠ ${prefix}sound88
-╠ ${prefix}sound89
-╠ ${prefix}sound90
-╠ ${prefix}sound91
-╠ ${prefix}sound92
-╠ ${prefix}sound93
-╠ ${prefix}sound94
-╠ ${prefix}sound95
-╠ ${prefix}sound96
-╠ ${prefix}sound97
-╠ ${prefix}sound98
-╠ ${prefix}sound99
-╠ ${prefix}sound100
-╠ ${prefix}sound101
-╠ ${prefix}sound102
-╠ ${prefix}sound103
-╠ ${prefix}sound104
-╠ ${prefix}sound105
-╠ ${prefix}sound106
-╠ ${prefix}sound107
-╠ ${prefix}sound108
-╠ ${prefix}sound109
-╠ ${prefix}sound110
-╠ ${prefix}sound111
-╠ ${prefix}sound112
-╠ ${prefix}sound113
-╠ ${prefix}sound114
-╠ ${prefix}sound115
-╠ ${prefix}sound116
-╠ ${prefix}sound117
-╠ ${prefix}sound118
-╠ ${prefix}sound119
-╠ ${prefix}sound120
-╠ ${prefix}sound121
-╠ ${prefix}sound122
-╠ ${prefix}sound123
-╠ ${prefix}sound124
-╠ ${prefix}sound125
-╠ ${prefix}sound126
-╠ ${prefix}sound127
-╠ ${prefix}sound128
-╠ ${prefix}sound129
-╠ ${prefix}sound130
-╠ ${prefix}sound131
-╠ ${prefix}sound132
-╠ ${prefix}sound133
-╠ ${prefix}sound134
-╠ ${prefix}sound135
-╠ ${prefix}sound136
-╠ ${prefix}sound137
-╠ ${prefix}sound138
-╠ ${prefix}sound139
-╠ ${prefix}sound140
-╠ ${prefix}sound141
-╠ ${prefix}sound142
-╠ ${prefix}sound143
-╠ ${prefix}sound144
-╠ ${prefix}sound145
-╠ ${prefix}sound146
-╠ ${prefix}sound147
-╠ ${prefix}sound148
-╠ ${prefix}sound149
-╠ ${prefix}sound150
-╠ ${prefix}sound151
-╠ ${prefix}sound152
-╠ ${prefix}sound153
-╠ ${prefix}sound154
-╠ ${prefix}sound155
-╠ ${prefix}sound156
-╠ ${prefix}sound157
-╠ ${prefix}sound158
-╠ ${prefix}sound159
-╠ ${prefix}sound160
-╠ ${prefix}sound161
-╠══════✪「 GAME 」
+╠
+╠═✪「 GAME 」
+╠
 ╠ ${prefix}truth
 ╠ ${prefix}dare
 ╠ ${prefix}tictactoe
@@ -9601,81 +9453,22 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠ ${prefix}guess [option]
 ╠ ${prefix}math [mode]
 ╠ ${prefix}suitpvp [tag]
-╠══✪「 ANONYMOUS CHAT 」
+╠
+╠═✪「 ANONYMOUS CHAT 」
+╠
 ╠${prefix}anonymous
 ╠${prefix}start
 ╠${prefix}next
 ╠${prefix}leave
-╠══════✪「 TOOL 」
+╠
+╠═✪「 TOOL 」
+╠
 ╠ ${prefix}translate [text]
 ╠ ${prefix}fliptext [text]
 ╠ ${prefix}toletter [number]
-╠══════✪「 DATABASE 」
-╠ ${prefix}setcmd
-╠ ${prefix}listcmd
-╠ ${prefix}delcmd
-╠ ${prefix}lockcmd
-╠ ${prefix}addmsg
-╠ ${prefix}listmsg
-╠ ${prefix}getmsg
-╠ ${prefix}delmsg
-╠══════✪「 lNDO 」
-╠ ${prefix}darkjoke
-╠ ${prefix}quotes
-╠ ${prefix}animequotes
-╠${prefix}jalantikus-meme
-╠ ${prefix}merdeka-news 
-╠ ${prefix}kontan-news 
-╠ ${prefix}cnbc-news 
-╠ ${prefix}tribun-news 
-╠ ${prefix}indozone-news 
-╠ ${prefix}kompas-news 
-╠ ${prefix}detik-news 
-╠ ${prefix}daily-news 
-╠ ${prefix}inews-news 
-╠ ${prefix}okezone-news 
-╠ ${prefix}sindo-news 
-╠ ${prefix}tempo-news 
-╠ ${prefix}antara-news 
-╠ ${prefix}cnn-news 
-╠ ${prefix}fajar-news 
-╠${prefix}cinemaschedule
-╠${prefix}wiki
-╠${prefix}covidindo
-╠${prefix}earthquake
-╠${prefix}tvschedule
-╠══════✪「 INDO HSCOPE 」
-╠${prefix}nomorhoki
-╠${prefix}artimimpi 
-╠${prefix}artinama 
-╠${prefix}ramaljodoh 
-╠${prefix}ramaljodohbali 
-╠${prefix}suamiistri 
-╠${prefix}ramalcinta 
-╠${prefix}cocoknama 
-╠${prefix}pasangan 
-╠${prefix}jadiannikah 
-╠${prefix}sifatusaha 
-╠${prefix}rezeki 
-╠${prefix}pekerjaan 
-╠${prefix}nasib 
-╠${prefix}penyakit 
-╠${prefix}tarot 
-╠${prefix}fengshui 
-╠${prefix}haribaik 
-╠${prefix}harisangar 
-╠${prefix}harisial
-╠${prefix}nagahari
-╠${prefix}arahrezeki
-╠${prefix}peruntungan 
-╠${prefix}weton 
-╠${prefix}karakter
-╠${prefix}keberuntungan
-╠${prefix}memancing
-╠${prefix}masasubur
-╠${prefix}zodiak
-╠${prefix}shio
-╠══════✪「 OTHER 」
+╠
+╠═✪「 OTHER 」
+╠
 ╠ ${prefix}afk
 ╠ ${prefix}readmore [text]
 ╠ ${prefix}toviewonce
@@ -9694,13 +9487,14 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」
 ╠ ${prefix}donate
 ╠ ${prefix}request
 ╠ ${prefix}report [bug]
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "INSTAGRAM 📍","url": `${websitex}`}},{"urlButton": {"displayText": "BOT DEV🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
+╚═════════════✪
+` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "INSTAGRAM 📍","url": `${websitex}`}},{"urlButton": {"displayText": "BOT DEV🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'ownermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Owner Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 FOR GURU 」	
+await XeonBotInc.send5ButImg(from, `╔═══════✪「 UMBRELLA 」	
 ╠ ${prefix}self
 ╠ ${prefix}public
 ╠ ${prefix}antitag
@@ -9767,7 +9561,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 GROUP 」
 ╠${prefix}delvote
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "INSTAGRAM 📍","url": `${websitex}`}},{"urlButton": {"displayText": "BOT DEV🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
-case 'rpgmenu':
+case 'rpgmasdsadadasenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Rpg Menu')
@@ -10556,7 +10350,6 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OTHER 」
 ╠ ${prefix}toviewonce
 ╠ ${prefix}chatinfo
 ╠ ${prefix}alive
-╠ ${prefix}script
 ╠ ${prefix}speedtest
 ╠ ${prefix}ping
 ╠ ${prefix}owner
@@ -10574,11 +10367,7 @@ break
 case 'tqtt': 
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-reply(`Thanks to
-LORD JAGANNATH
-GURU (Me)
-My family
-And all friends who helped assemble this sexy script !!!`)
+reply(`Zukato`)
 break
             default:
                 if (budy.startsWith('=>')) {
